@@ -1,7 +1,7 @@
 {
-  "name": "ps-redux",
+  "name": "react-redux-starter-kit",
   "version": "1.0.0",
-  "description": "Starter kit for React and Redux Pluralsight course by Cory House",
+  "description": "Starter kit for React and Redux by Amine Benhallouk",
   "scripts": {
     "prestart": "babel-node tools/startMessage.js",
     "start": "npm-run-all --parallel test:watch open:src lint:watch",
@@ -17,7 +17,7 @@
     "build": "babel-node tools/build.js",
     "postbuild": "babel-node tools/distServer.js"
   },
-  "author": "Cory House",
+  "author": "Amine Benhallouk",
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "6.8.0",
@@ -72,6 +72,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/coryhouse/pluralsight-redux-starter"
+    "url": "https://github.com/benhallouk/react-redux-starter"
   }
 }
